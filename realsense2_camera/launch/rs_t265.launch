@@ -31,7 +31,7 @@ https://github.com/IntelRealSense/librealsense/blob/master/third-party/libtm/lib
   <arg name="initial_reset"         default="false"/>
   <arg name="unite_imu_method"      default="linear_interpolation"/>
 
-  <arg name="publish_odom_tf"     default="false"/>
+  <arg name="publish_odom_tf"     default="true"/>
 
   <arg name="odom_frame_id"         default="$(arg tf_prefix)_odom_frame"/>
   <arg name="base_frame_id"         default="$(arg tf_prefix)_link"/>
