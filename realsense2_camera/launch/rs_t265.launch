@@ -5,6 +5,11 @@ ROS/realsense in upcoming releases. Currently, the API is available in the
 https://github.com/IntelRealSense/librealsense/blob/master/third-party/libtm/libtm/include/TrackingDevice.h#L508-L515.
 -->
 <launch>
+  <rosparam>
+    /camera_t265/tracking_module/enable_relocalization: false
+    /camera_t265/tracking_module/enable_pose_jumping: false
+  </rosparam>
+  
   <arg name="serial_no"           default=""/>
   <arg name="usb_port_id"         default=""/>
   <arg name="device_type"         default="t265"/>
